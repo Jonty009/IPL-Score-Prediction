@@ -10,7 +10,7 @@ filename = 'first-innings-score-lr-model.pkl'
 regressor = pickle.load(open(filename, 'rb'))
 
 app = Flask(__name__)
-run_with_ngrok(app) 
+#run_with_ngrok(app) 
 
 @app.route('/')
 def home():
